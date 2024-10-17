@@ -1,22 +1,27 @@
-# Benefícios Estudantis
+# Benefícios e Cursos Gratuitos
 
-Este projeto tem como objetivo reunir e compartilhar informações sobre sites e empresas que oferecem benefícios especiais para estudantes, como descontos, planos gratuitos ou pacotes estudantis exclusivos.
+Este projeto tem como objetivo reunir e compartilhar informações sobre sites e empresas que oferecem benefícios especiais para estudantes, como descontos, planos gratuitos, e pacotes estudantis exclusivos. Além disso, o site também destaca plataformas que oferecem cursos gratuitos, acessíveis a qualquer pessoa interessada em aprimorar seus conhecimentos.
 
 ## Propósito
 
-Estudantes muitas vezes podem aproveitar vantagens exclusivas, como assinaturas de serviços com preços reduzidos ou até mesmo acesso gratuito a certas plataformas. Este site serve como um guia prático, facilitando o acesso a essas oportunidades.
+O site foi criado para facilitar o acesso a oportunidades educacionais e vantagens exclusivas para estudantes e não-estudantes. Ele inclui informações sobre como ativar descontos em serviços populares e links para plataformas que oferecem cursos gratuitos de qualidade.
 
 ## Funcionalidades
 
-Listagem de empresas que oferecem descontos ou planos especiais para estudantes.
-Links diretos para os sites dessas empresas e seus respectivos planos.
-Informações detalhadas sobre como ativar os benefícios.
+- **Benefícios para Estudantes**: Listagem de empresas que oferecem descontos ou planos especiais para estudantes.
+- **Cursos Gratuitos**: Reunião de plataformas e sites que oferecem cursos gratuitos, em diversas áreas do conhecimento.
+- **Links Diretos**: Acesso rápido aos sites das empresas e plataformas para aproveitar os benefícios.
+- **Guias e Informações**: Instruções sobre como ativar os benefícios e acessar os cursos.
 
 ## Como acessar
 
-Você pode acessar o site hospedado diretamente no GitHub Pages através deste link: https://www.luangarcia.dev.br/beneficios ou https://LGarciax.github.io/beneficios
+Você pode acessar o site hospedado diretamente no GitHub Pages através desses links: https://www.luangarcia.dev.br/estudantes ou https://www.LGarciax.github.io/estudantes
 
-### Sugestões
+## Contribuições
 
-Se você possui alguma sugestão de site, ou gostaria de adicionar algum beneficio a pagina, basta entrar em contato comigo através do email: luangarcia@proton.me ou em uma das minhas redes sociais.
+Contribuições para adicionar novos benefícios ou cursos gratuitos são sempre bem-vindas! Sinta-se à vontade para abrir um pull request, relatar problemas na aba de issues ou entrar em contato.
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
