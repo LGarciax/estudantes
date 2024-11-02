@@ -7,10 +7,28 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <div class="off-screen-menu">
+      <ul>
+        <a class="hamlinks" href="#gratuito-target"><li>Gratuitos</li></a>
+        <a class="hamlinks" href="#misto-target"><li>Mistos</li></a>
+        <a class="hamlinks" href="#solo-target"><li>Estude Sozinho</li></a>
+        <a class="hamlinks" href="#lazer-target"><li>Lazer</li></a> 
+      </ul>
+    </div>
+    
+    <nav>
+      <div class="ham-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
     <main>
       <div class="container-principal">
-        <h1>Estudo</h1>
-        <div id="Estudo" class="cursos">
+        <h1 id="gratuito-target">Gratuitos</h1>
+        <h3><span class="mini-text">Opções 100% gratuitas</span></h3>
+
+        <div id="Gratuitos" class="cursos">
           <!-- Github Student  -->
           <div class="container-oferta">
             <div class="head">
@@ -27,15 +45,96 @@
                 formação de portfolio. Além de ofertas especiais de mais 40
                 parceiros, incluindo plataformas de ensino, dominio gratis e
                 serviços de infraestrutura.
+                <a class="link" href="pdf/Github.pdf" target="_blank"
+                  >Tutorial de requisição</a
+                >
               </p>
               <div class="button">
                 <a href="https://github.com/education/students" target="_blank"
-                  >Oferta</a
+                  >Acesse a Página</a
                 >
-                <a href="pdf/Github.pdf" target="_blank">Tutorial</a>
               </div>
             </div>
           </div>
+
+          <!-- FreeCodeCamp  -->
+          <div class="container-oferta">
+            <div class="head">
+              <div class="img">
+                <img src="./img/fcc_primary_small.svg" alt="" />
+              </div>
+              <div class="title"><h1>FreeCodeCamp</h1></div>
+            </div>
+            <div class="conteudo">
+              <p>
+                O FreeCodeCamp é uma organização sem fins lucrativos
+                internacional, que busca formar desenvolvedores Full-Stack, ela
+                possui um programa robusto de ensino, com cursos de front, back,
+                analise de dados entre outras funções, fornece certificado e
+                mais de 100.000 graduados conseguiram empregos na industria.
+              </p>
+              <div class="button">
+                <a href="https://www.freecodecamp.org/learn/" target="_blank"
+                  >Acesse a Página</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Fundação Bradesco  -->
+          <div class="container-oferta">
+            <div class="head">
+              <div class="img">
+                <img src="./img/escola_virtual_horizontal_full.svg" alt="" />
+              </div>
+              <div class="title"><h1>Fundação Bradesco</h1></div>
+            </div>
+            <div class="conteudo">
+              <p>
+                A fundação Bradesco oferece cursos em diversas áreas com
+                certificação e gratuitos, os cursos geralmente são curtos com
+                duração maxima de até 20h e focados em temas especificos.
+              </p>
+              <div class="button">
+                <a href="https://www.ev.org.br/" target="_blank"
+                  >Acesse a Página</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- MOOC - Massive Open Online Course-->
+          <div class="container-oferta">
+            <div class="head">
+              <div class="img">
+                <img src="./img/Mooc.org Logo.svg" alt="" />
+              </div>
+              <div class="title">
+                <h1>Mooc - Massive Open Online Courses</h1>
+              </div>
+            </div>
+            <div class="conteudo">
+              <p>
+                Moocs são Cursos Online oferecidos por universidades e
+                instituições ao redor do mundo, são mais de 3000 cursos
+                gratuitos em diversas areas, cursos de universidades renomadas
+                como Havard, MIT, USP, entre outras instituições, você aprende
+                no seu tempo com materiais de alta qualidade.
+              </p>
+              <div class="button">
+                <a href="https://www.mooc.org/courses" target="_blank"
+                  >Acesse a Página</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Opções mistas  -->
+
+        <h1 id="misto-target">Mistos</h1>
+        <h3 ><span class="mini-text">Cursos gratis, com opções pagas</span></h3>
+        <div id="Mistos" class="cursos">
           <!-- Cisco NetAcademy  -->
           <div class="container-oferta">
             <div class="head">
@@ -81,29 +180,7 @@
               </div>
             </div>
           </div>
-          <!-- FreeCodeCamp  -->
-          <div class="container-oferta">
-            <div class="head">
-              <div class="img">
-                <img src="./img/fcc_primary_small.svg" alt="" />
-              </div>
-              <div class="title"><h1>FreeCodeCamp</h1></div>
-            </div>
-            <div class="conteudo">
-              <p>
-                O FreeCodeCamp é uma organização sem fins lucrativos
-                internacional, que busca formar desenvolvedores Full-Stack, ela
-                possui um programa robusto de ensino, com cursos de front, back,
-                analise de dados entre outras funções, fornece certificado e
-                mais de 100.000 graduados conseguiram empregos na industria.
-              </p>
-              <div class="button">
-                <a href="https://www.freecodecamp.org/learn/" target="_blank"
-                  >Acesse a Página</a
-                >
-              </div>
-            </div>
-          </div>
+
           <!-- Coursera  -->
           <div class="container-oferta">
             <div class="head">
@@ -166,27 +243,58 @@
               </div>
             </div>
           </div>
-          <!-- Fundação Bradesco  -->
+          <!-- Microsoft Learn-->
           <div class="container-oferta">
             <div class="head">
-              <div class="img">
-                <img src="./img/escola_virtual_horizontal_full.svg" alt="" />
-              </div>
-              <div class="title"><h1>Fundação Bradesco</h1></div>
+              <div class="img"><img src="./img/microsoft.svg" alt="" /></div>
+              <div class="title"><h1>Microsoft Learn</h1></div>
             </div>
             <div class="conteudo">
               <p>
-                A fundação Bradesco oferece cursos em diversas áreas com
-                certificação e gratuitos, os cursos geralmente são curtos com
-                duração maxima de até 20h e focados em temas especificos.
+                A Microsoft oferece a plataforma Microsoft Learn, que
+                disponibiliza uma variedade de cursos gratuitos com certificação
+                em diversas áreas, como Azure, inteligência artificial,
+                desenvolvimento de aplicativos e ciência de dados. Embora alguns
+                cursos sejam pagos, há muitas opções sem custo.
               </p>
               <div class="button">
-                <a href="https://www.ev.org.br/" target="_blank"
+                <a href="https://learn.microsoft.com/pt-br/" target="_blank"
                   >Acesse a Página</a
                 >
               </div>
             </div>
           </div>
+        </div>
+
+        <h1 id="solo-target">Estude Sozinho</h1>
+        <h3>
+          <span class="mini-text">Opções para quem procura um desafio</span>
+        </h3>
+        <div id="EstudeSozinho" class="cursos">
+          <!-- Open Source Society University  -->
+          <div class="container-oferta">
+            <div class="head">
+              <div class="img">
+                <img src="./img/github-mark-white.svg" alt="" />
+              </div>
+              <div class="title"><h1>Open Source Society University</h1></div>
+            </div>
+            <div class="conteudo">
+              <p>
+                A Open Source Society University é um projeto de ensino
+                colaborativo, com um curriculo de Ciencia da Computação
+                completo, com cursos de matematica, programação, ciencia de
+                dados, entre outras areas, o projeto é baseado em um curriculo
+                de uma universidade americana.
+              </p>
+              <div class="button">
+                <a href="https://ossu.firebaseapp.com/#/" target="_blank"
+                  >Acesse a Página</a
+                >
+              </div>
+            </div>
+          </div>
+
           <div class="container-oferta">
             <div class="head">
               <div class="img">
@@ -233,41 +341,12 @@
               </div>
             </div>
           </div>
-
-          <!-- Microsoft Learn-->
-          <div class="container-oferta">
-            <div class="head">
-            <div class="img"><img src="./img/microsoft.svg" alt=""></div>
-            <div class="title"><h1>Microsoft Learn</h1></div>
-            </div>
-            <div class="conteudo">
-                <p>A Microsoft oferece a plataforma Microsoft Learn, que disponibiliza uma variedade de cursos gratuitos com certificação em diversas áreas, como Azure, inteligência artificial, desenvolvimento de aplicativos e ciência de dados. Embora alguns cursos sejam pagos, há muitas opções sem custo.</p>
-                <div class="button">
-                <a href="https://learn.microsoft.com/pt-br/" target="_blank">Acesse a Página</a>
-                
-                </div>
-            </div>
-        </div>
-        <!-- MOOC - Massive Open Online Course-->
-          <div class="container-oferta">
-            <div class="head">
-            <div class="img"><img src="./img/Mooc.org Logo.svg" alt=""></div>
-            <div class="title"><h1>Mooc - Massive Open Online Courses</h1></div>
-            </div>
-            <div class="conteudo">
-                <p>Moocs são Cursos Online oferecidos por universidades e instituições ao redor do mundo, são mais de 3000 cursos gratuitos em diversas areas, cursos de universidades renomadas como Havard, MIT, USP, entre outras instituições, você aprende no seu tempo com materiais de alta qualidade.  </p>
-                <div class="button">
-                <a href="https://www.mooc.org/courses" target="_blank">Acesse a Página</a>
-                
-                </div>
-            </div>
-        </div>
-
         </div>
 
         <!-- Opções de Lazer  -->
 
-        <h1>Lazer</h1>
+        <h1 id="lazer-target">Lazer</h1>
+        <h3><span class="mini-text">A vida não é feita só de estudo</span></h3>
         <div id="Lazer" class="cursos">
           <!-- Spotify  -->
           <div class="container-oferta">
@@ -369,6 +448,7 @@
             </div>    -->
       </div>
     </main>
+    <script src="./js/hammenu.js"></script>
 
     <footer>
       <a href="http://www.github.com/LGarciax"
